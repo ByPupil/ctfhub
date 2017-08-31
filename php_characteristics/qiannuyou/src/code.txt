@@ -1,0 +1,12 @@
+<?php
+if(isset($_GET['v1']) && isset($_GET['v2']) && isset($_GET['v3'])){
+    $v1 = $_GET['v1'];
+    $v2 = $_GET['v2'];
+    $v3 = $_GET['v3'];
+    if($v1 != $v2 && md5($v1) == md5($v2)){
+        if(!strcmp($v3, $flag)){
+            echo $flag;
+        }
+    }
+}
+?>
