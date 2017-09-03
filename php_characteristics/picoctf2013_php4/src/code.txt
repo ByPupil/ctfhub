@@ -1,0 +1,18 @@
+ <?php
+        if($_POST['user'] && $_POST['pass']) {
+            mysql_connect("localhost", “XXXXXXX”, “XXXXXXXX”) or die("Could not connect:" . mysql_error());
+			mysql_select_db("ctfhub");
+            $user = $_POST['user'];
+            $pass = md5($_POST['pass']);
+			$sql="select pw from ctfhub where user='$user'";
+			$result = mysql_query($sql);
+            $query = @mysql_fetch_array($result);
+
+            if(($query['pw']) && (!strcasecmp($pass, $query['pw']))) {
+                echo "<p>Logged in! Key: XXXXXXXXXXXXXXXXXX</p>";
+            }
+            else {
+                echo("<p>Log in failure!</p>");
+            }
+        }
+    ?>
