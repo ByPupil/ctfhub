@@ -9,4 +9,6 @@ cd ../../
 cd php_characteristics/picoctf2013_php2/
 docker build -t ctfhub:php2 .
 cd ../../
-
+cd php_characteristics/picoctf2013_php3/
+docker build -t ctfhub:php3 .
+cd ../../
