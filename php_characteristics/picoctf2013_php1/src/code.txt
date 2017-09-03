@@ -1,0 +1,13 @@
+ <?php
+      $secret_key = '';
+      extract($_GET);
+      $flag = '';
+      if (isset($password)) {
+        if ($password === $secret_key) {
+          echo "<p>Correct!</p>";
+          echo "<p>Flag: "." $flag</p>";
+        } else {
+          echo "<p>Incorrect!</p>";
+        }
+      }
+    ?>
