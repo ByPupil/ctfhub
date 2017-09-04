@@ -18,3 +18,6 @@ cd ../../
 cd php_characteristics/picoctf2013_php4/
 docker build -t ctfhub:php4 .
 cd ../../
+cd sql_injection/picoctf2013_injection/
+docker build -t ctfhub:injection .
+cd ../../

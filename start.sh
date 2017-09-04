@@ -6,3 +6,4 @@ docker run -i -d -p 30003:80 ctfhub:php1
 docker run -i -d -p 30004:80 ctfhub:php2
 docker run -i -d -p 30005:80 ctfhub:php3
 docker run -i -d -p 30006:80 ctfhub:php4
+docker run -i -d -p 30007:80 ctfhub:injection
