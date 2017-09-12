@@ -21,3 +21,6 @@ cd ../../
 cd sql_injection/picoctf2013_injection/
 docker build -t ctfhub:injection .
 cd ../../
+cd php_characteristics/soeasy/
+docker build -t ctfhub:soeasy .
+cd ../../
