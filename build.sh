@@ -24,3 +24,6 @@ cd ../../
 cd php_characteristics/soeasy/
 docker build -t ctfhub:soeasy .
 cd ../../
+cd sql_injection/chengjidan/
+docker build -t ctfhub:chengjidan .
+cd ../../
