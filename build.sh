@@ -27,3 +27,6 @@ cd ../../
 cd sql_injection/chengjidan/
 docker build -t ctfhub:chengjidan .
 cd ../../
+cd sql_injection/sqli_labs/
+docker build -t ctfhub:sqlilabs .
+cd ../../

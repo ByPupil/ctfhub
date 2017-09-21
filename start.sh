@@ -9,3 +9,4 @@ docker run -i -d -p 30006:80 ctfhub:php4
 docker run -i -d -p 30007:80 ctfhub:injection
 docker run -i -d -p 30008:80 ctfhub:soeasy
 docker run -i -d -p 30009:80 ctfhub:chengjidan
+docker run -i -d -p 30010:80 ctfhub:sqlilabs
