@@ -30,3 +30,6 @@ cd ../../
 cd sql_injection/sqli_labs/
 docker build -t ctfhub:sqlilabs .
 cd ../../
+cd php_characteristics/php_tips1/
+docker build -t ctfhub:phptips1 .
+cd ../../
