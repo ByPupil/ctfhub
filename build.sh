@@ -33,3 +33,6 @@ cd ../../
 cd php_characteristics/php_tips1/
 docker build -t ctfhub:phptips1 .
 cd ../../
+cd php_characteristics/X-NUCA4/
+docker build -t ctfhub:xnuca4 .
+cd ../../

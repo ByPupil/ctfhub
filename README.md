@@ -50,6 +50,8 @@ git clone git@github.com:ByPupil/ctfhub.git
 
 每个环境目录下都有对应的write up — README.md，请阅读该文件，进行测试与学习。
 
+**为了防止通过CTFhub直接获取flag，在该项目中，所有的flag都是:123456789**
+
 **本项目中的所有示例代码不可作为生产环境使用，仅供测试和学习**
 
 **欢迎各位表哥或小伙伴有好的想法或者题目与我进行交流**
