@@ -36,3 +36,6 @@ cd ../../
 cd php_characteristics/X-NUCA4/
 docker build -t ctfhub:xnuca4 .
 cd ../../
+cd php_characteristics/codegatectf2015_owlur/
+docker build -t ctfhub:owlur .
+cd ../../
