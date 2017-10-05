@@ -39,3 +39,6 @@ cd ../../
 cd php_characteristics/codegatectf2015_owlur/
 docker build -t ctfhub:owlur .
 cd ../../
+cd php_characteristics/code_audit_challenges_2/
+docker build -t ctfhub:code2 .
+cd ../../

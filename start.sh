@@ -13,3 +13,4 @@ docker run -i -d -p 30010:80 ctfhub:sqlilabs
 docker run -i -d -p 30011:80 ctfhub:phptips1
 docker run -i -d -p 30012:80 ctfhub:xnuca4
 docker run -i -d -p 30013:80 ctfhub:owlur
+docker run -i -d -p 30014:80 ctfhub:code2
