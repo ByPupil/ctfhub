@@ -6,6 +6,6 @@ RUN /etc/init.d/mysqld start \
     && mysqladmin -uroot password 'ctfhub' \
     && mysql -e "CREATE DATABASE security DEFAULT CHARACTER SET utf8;" -uroot -pctfhub \
     && rm /var/www/html/phpinfo.php \
-    && chmod -R 655 /var/www/html/
+    && chmod -R 777 /var/www/html/
 
 
