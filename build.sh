@@ -48,3 +48,6 @@ cd ../../
 cd php_characteristics/code_audit_challenges_12/
 docker build -t ctfhub:code12
 cd ../../
+cd php_characteristics/sycsec_audit/
+docker build -t ctfhub:sycsec1 .
+cd ../../
