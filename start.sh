@@ -17,3 +17,4 @@ docker run -d -p 30014:80 ctfhub:code2
 docker run -d -p 30015:80 ctfhub:code21
 docker run -d -p 30016:80 ctfhub:code12
 docker run -d -p 30017:80 ctfhub:sycsec1
+docker run -d -p 30018:80 ctfhub:zctfweb100

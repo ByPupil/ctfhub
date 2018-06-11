@@ -51,3 +51,6 @@ cd ../../
 cd php_characteristics/sycsec_audit/
 docker build -t ctfhub:sycsec1 .
 cd ../../
+cd php_characteristics/zctf_web100/
+docker build -t ctfhub:zctfweb100
+cd ../../
